@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.ef0cac46.css",
+    "main.js": "/Portfolio/static/js/main.fd725b59.js",
+    "static/js/787.1ed0c42c.chunk.js": "/Portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/Quiz_Web.mp4": "/Portfolio/static/media/Quiz_Web.2f260e5724ac82a9f06f.mp4",
+    "static/media/Own_Password_Generator.mp4": "/Portfolio/static/media/Own_Password_Generator.3b1664542d21646687b0.mp4",
+    "static/media/myPhoto.png": "/Portfolio/static/media/myPhoto.cfd97a44d4b1b8595edb.png",
+    "static/media/New_Year_Count.mp4": "/Portfolio/static/media/New_Year_Count.817076a5b15e1af1363d.mp4",
+    "static/media/Rock_paper_scissor.mp4": "/Portfolio/static/media/Rock_paper_scissor.a6d66a42d27d23e4a82c.mp4",
+    "static/media/Tic_Tac_Toy.mp4": "/Portfolio/static/media/Tic_Tac_Toy.538eca04ad35d7a55555.mp4",
+    "static/media/contactImg.png": "/Portfolio/static/media/contactImg.8ddfbfd11798f881db54.png",
+    "static/media/CV.pdf": "/Portfolio/static/media/CV.b13274dcbef37c675c02.pdf",
+    "static/media/react.png": "/Portfolio/static/media/react.256a4f35509f24d20cf4.png",
+    "static/media/footer_logo.png": "/Portfolio/static/media/footer_logo.a298d721542485300648.png",
+    "static/media/header_logo.png": "/Portfolio/static/media/header_logo.7adedc96e0b00a7c7982.png",
+    "static/media/css_3.png": "/Portfolio/static/media/css_3.bb1a5e1fd8d1b6ce3580.png",
+    "static/media/javascript.png": "/Portfolio/static/media/javascript.152846c7292a49471292.png",
+    "static/media/html_5.png": "/Portfolio/static/media/html_5.b1b1481df92f0830e135.png",
+    "index.html": "/Portfolio/index.html",
+    "main.ef0cac46.css.map": "/Portfolio/static/css/main.ef0cac46.css.map",
+    "main.fd725b59.js.map": "/Portfolio/static/js/main.fd725b59.js.map",
+    "787.1ed0c42c.chunk.js.map": "/Portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ef0cac46.css",
+    "static/js/main.fd725b59.js"
+  ]
+}
