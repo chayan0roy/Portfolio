@@ -1,0 +1,174 @@
+.Skills .content {
+	width: 100%;
+}
+
+.SkillsCard {
+	width: 45%;
+	margin: auto;
+	position: relative;
+}
+
+.SkillsCard:nth-child(odd) {
+	border-left: 3px solid black;
+	padding-left: 50px;
+	transform: translateX(287px);
+}
+
+.SkillsCard:nth-child(even) {
+	border-right: 3px solid black;
+	padding-right: 50px;
+	transform: translateX(-287px);
+}
+
+.SkillsCard:nth-child(odd)::before,
+.SkillsCard:nth-child(even)::before {
+	content: '';
+	background: #000000;
+	width: 50px;
+	height: 3px;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.SkillsCard:nth-child(odd)::before {
+	left: 0;
+}
+
+.SkillsCard:nth-child(even)::before {
+	right: 0;
+}
+
+.Skills .box {
+	padding: 30px;
+	cursor: pointer;
+	color: #000;
+	background: linear-gradient(145deg, #e2e8ec, #ffffff);
+	box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
+}
+
+.Skills .box:hover {
+	background: #ff014f;
+	color: white;
+}
+
+.SkillsCard:nth-child(odd) .box::before,
+.SkillsCard:nth-child(even) .box::before {
+	content: '';
+	background-color: #000000;
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	border-radius: 50%;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.SkillsCard:nth-child(odd) .box::before {
+	left: -17px;
+}
+
+.SkillsCard:nth-child(even) .box::before {
+	right: -17px;
+}
+
+.SkillsCard:nth-child(1) .box::before {
+	background-image: url('../../assets/photos/html_5.png');
+}
+
+.SkillsCard:nth-child(2) .box::before {
+	background-image: url('../../assets/photos/css_3.png');
+}
+
+.SkillsCard:nth-child(3) .box::before {
+	background-image: url('../../assets/photos/javascript.png');
+}
+
+.SkillsCard:nth-child(4) .box::before {
+	background-image: url('../../assets/photos/react.png');
+}
+
+.Skills hr {
+	margin: 15px 0 15px 0;
+	border: 1px solid #000000;
+	background-color: #000000;
+}
+
+.Skills .box:hover hr {
+	border: 1px solid #e3e9ed;
+	background-color: #e3e9ed;
+}
+
+.Skills .box h2,
+.Skills .year,
+.Skills .skill_number {
+	font-size: 1.9rem;
+	font-weight: bold;
+}
+
+.Skills .skill_bar {
+	position: relative;
+	width: 100%;
+	margin-top: 10px;
+	height: 10px;
+	background-color: yellow;
+	border-radius: 10px;
+}
+
+.Skills .box:hover .skill_bar {
+	background-color: #ffffff;
+}
+
+.Skills .skill_percentage {
+	position: absolute;
+	height: 10px;
+	background-color: #ff014f;
+	border-radius: 10px;
+}
+
+.Skills .box:hover .skill_percentage {
+	background-color: #000000;
+}
+
+@media (max-width: 768px) {
+
+	.SkillsCard {
+		width: 100%;
+	}
+
+	.SkillsCard:nth-child(odd) {
+		border-left: none;
+		padding-left: 0;
+		transform: none;
+		margin-top: 40px;
+	}
+
+	.SkillsCard:nth-child(even) {
+		border-right: none;
+		padding-right: 0;
+		transform: none;
+		margin-top: 40px;
+	}
+
+	.SkillsCard:nth-child(odd)::before,
+	.SkillsCard:nth-child(even)::before {
+		width: 3px;
+		height: 40px;
+		top: -40px;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+
+	.SkillsCard:nth-child(odd) .box::before,
+	.SkillsCard:nth-child(even) .box::before {
+		width: 20px;
+		height: 20px;
+		top: -10px;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+
+}

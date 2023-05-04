@@ -1,0 +1,63 @@
+.pageHeading {
+    width: 100%;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.pageHeadingBackground {
+    color: rgb(0, 0, 0);
+    font-size: 10rem;
+    text-align: center;
+    opacity: 0.2;
+}
+
+.pageHeadingFront {
+    text-align: center;
+    font-size: 6.5rem;
+    color: green;
+    position: absolute;
+    top: 30px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.pageHeadingFront::before {
+    content: '';
+    background-color: #000000;
+    height: 2px;
+    width: 200px;
+    position: absolute;
+    top: 82.5px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0 auto;
+}
+
+.pageHeadingFront::after {
+    content: '';
+    background-color: #000000;
+    height: 7px;
+    width: 70px;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+    .pageHeadingFront {
+        top: 22px;
+    }
+
+    .pageHeadingFront::before {
+        top: 60px;
+    }
+
+    .pageHeadingFront::after {
+        top: 58px;
+    }
+}
