@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.0cd609ea.css",
-    "main.js": "/Portfolio/static/js/main.e4cc269b.js",
+    "main.css": "/Portfolio/static/css/main.e8e2089c.css",
+    "main.js": "/Portfolio/static/js/main.256b48b2.js",
     "static/js/787.1ed0c42c.chunk.js": "/Portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/Quiz_Web.mp4": "/Portfolio/static/media/Quiz_Web.2f260e5724ac82a9f06f.mp4",
     "static/media/Own_Password_Generator.mp4": "/Portfolio/static/media/Own_Password_Generator.3b1664542d21646687b0.mp4",
@@ -18,12 +18,12 @@
     "static/media/javascript.png": "/Portfolio/static/media/javascript.152846c7292a49471292.png",
     "static/media/html_5.png": "/Portfolio/static/media/html_5.b1b1481df92f0830e135.png",
     "index.html": "/Portfolio/index.html",
-    "main.0cd609ea.css.map": "/Portfolio/static/css/main.0cd609ea.css.map",
-    "main.e4cc269b.js.map": "/Portfolio/static/js/main.e4cc269b.js.map",
+    "main.e8e2089c.css.map": "/Portfolio/static/css/main.e8e2089c.css.map",
+    "main.256b48b2.js.map": "/Portfolio/static/js/main.256b48b2.js.map",
     "787.1ed0c42c.chunk.js.map": "/Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0cd609ea.css",
-    "static/js/main.e4cc269b.js"
+    "static/css/main.e8e2089c.css",
+    "static/js/main.256b48b2.js"
   ]
 }
