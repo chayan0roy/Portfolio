@@ -1,10 +1,10 @@
 import React from "react"
-import Header from "./component/Head/Header"
-import Home from "./component/home/Home"
-import Portfolio from "./component/Portfolio/Portfolio"
-import Skills from "./component/skills/Skills"
-import Contact from "./component/Contact/Contact"
-import Footer from "./component/Footer"
+import Header from "./component/header/Header"
+import Home from "./pages/home/Home"
+import Skills from "./pages/skills/Skills"
+import Portfolio from "./pages/portfolio/Portfolio"
+import Contact from "./pages/contact/Contact"
+import Footer from "./component/footer/Footer"
 import "./App.css"
 
 const App = () => {

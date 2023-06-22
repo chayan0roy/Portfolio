@@ -1,44 +1,25 @@
 header {
-  height: 10vh;
-  line-height: 10vh;
+  width: 100%;
+  padding: 0 3%;
+  height: 13vh;
 }
 
-header .container {
-  padding-top: 15px;
+header ul li {
+  margin-left: 30px;
 }
-
 header ul li {
   margin-left: 30px;
 }
 
 header ul li a {
   transition: 0.5s;
-  font-size: 1.3rem;
+  font-size: 1.7rem;
   font-weight: 500;
-  letter-spacing: 1px;
+  letter-spacing: 0.1rem;
 }
 
 header ul li a:hover {
   color: #ff014f;
-}
-
-.home-btn {
-  padding: 18px 25px;
-  border-radius: 6px;
-  transition: 0.3s all ease;
-  cursor: pointer;
-  height: fit-content;
-  color: #ff014f;
-}
-
-.home-btn {
-  background: linear-gradient(145deg, #e2e8ec, #ffffff);
-  box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
-}
-
-.home-btn:hover {
-  background: #ff014f;
-  color: white;
 }
 
 .open {
@@ -49,7 +30,7 @@ header ul li a:hover {
   height: 12vh;
   position: fixed;
   top: 0;
-  z-index: 1000;
+  z-index: 100;
   width: 100%;
   background-color: #ecf0f3;
   box-shadow: -1px 11px 24px -11px rgba(0, 0, 0, 0.75);
@@ -73,7 +54,7 @@ header ul li a:hover {
     width: 60%;
     height: 100vh;
     background-color: white;
-    z-index: 888;
+    z-index: 100;
   }
 
   header ul li {
@@ -89,27 +70,30 @@ header ul li a:hover {
 
   .close,
   .open {
-    position: absolute;
-    top: 35px;
-    right: 20px;
     color: #ff014f;
     display: block;
-    font-size: 2.5rem;
+    font-size: 3rem;
     z-index: 999;
+    cursor: pointer;
   }
 
   .close {
+    position: absolute;
     right: 45%;
   }
 
-  .close.home-btn {
-    background: linear-gradient(145deg, #e2e8ec, #ffffff);
+  .close {
     color: #ff014f;
     border-radius: 50%;
     padding: 0;
     width: 60px;
     height: 60px;
     line-height: 60px;
+  }
+
+  .close:hover {
+    color: #fff;
+    background-color: #ff014f;
   }
   
   .header.active {
