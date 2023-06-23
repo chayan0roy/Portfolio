@@ -8,7 +8,7 @@ const Skills = () => {
 	return (
 		<section className='Skills container' id='skills'>
 			<Pageheading headingText={"Skills"} />
-			<div className='content'>
+			<div className='SkillContent'>
 				{SkillsData.map((val, index) => {
 					return <SkillsCard title={val.title} year={val.year} persentage={val.persentage} />
 				})}
